@@ -6,6 +6,9 @@ describe("Calculator", () => {
   });
 
   it("should multiply two numbers correctly", () => {
-    expect(multiply(2, 1)).toBe(6);
+    expect(multiply(2, 1)).toBe(2);
+  });
+  it("should multiply two numbers correctly", () => {
+    expect(multiply(2, 3)).toBe(6);
   });
 });
